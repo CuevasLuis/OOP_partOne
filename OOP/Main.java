@@ -1,5 +1,5 @@
 package OOP;
-import java.util.Scanner;
+
 
 public class Main {
 
@@ -30,14 +30,22 @@ public class Main {
     this.authorFirstName = fname;
     this.authorLastName = lname;
     this.genre = genre;
-    
 
-
-
+};
         
-    };
+public Main(String bookname) {
+    this.bookName = bookname;
+}
 
+//method 1 
+public void setAuthorFirstName(String newAuthorFirstName) {
+    this.bookName = newAuthorFirstName;
+}
 
+//method 2 
+public String getAuthorFirstName() {
+    return authorFirstName;
+}
 
 
 
@@ -49,6 +57,7 @@ public class Main {
 
         
 
+        Main bookOne = new Main("The Great book");
 
 
     
