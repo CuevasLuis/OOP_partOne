@@ -39,26 +39,64 @@ public Main(String bookname) {
 
 //method 1 
 public void setAuthorFirstName(String newAuthorFirstName) {
-    this.bookName = newAuthorFirstName;
+    this.authorFirstName = newAuthorFirstName;
 }
 
 //method 2 
-public String getAuthorFirstName() {
-    return authorFirstName;
+public void numberofpages(int numberofpages) {
+    this.ISBM = isbmnumber;
+}
+
+//method 3
+public void setISBM(int isbmnumber) {
+    this.ISBM = isbmnumber;
+}
+//method 4
+public void setISBM(int isbmnumber) {
+    this.ISBM = isbmnumber;
+}
+
+//method 5
+public void setISBM(int isbmnumber) {
+    this.ISBM = isbmnumber;
+}
+
+//method 6
+public void setISBM(int isbmnumber) {
+    this.ISBM = isbmnumber;
+}
+
+//method 7
+public void setISBM(int isbmnumber) {
+    this.ISBM = isbmnumber;
+}
+
+//method 8
+public void setISBM(int isbmnumber) {
+    this.ISBM = isbmnumber;
 }
 
 
+//method 9
+public void setISBM(int isbmnumber) {
+    this.ISBM = isbmnumber;
+}
 
-
-
-    
+ //method 10
+public void setISBM(int isbmnumber) {
+    this.ISBM = isbmnumber;
+}   
 
     public static void main(String[] args) {
 
         
 
         Main bookOne = new Main("The Great book");
-
+        
+        bookOne.setAuthorFirstName("Luis Cuevas");
+        bookOne.setISBM(12311992);
+        System.out.println(bookOne.authorFirstName);
+        System.out.println(bookOne.ISBM); 
 
     
         
